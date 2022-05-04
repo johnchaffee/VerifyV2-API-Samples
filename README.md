@@ -30,7 +30,8 @@ Each one of these scripts is designed to run independently and perform the desig
 1. Update the .demo.env file if you are on macOS/Linux or the .api.env.bat file with your user/environment/API information and then load the variables into your environment. If you are using macOS or Linux operating systems, just use the source command to load the variables into your environment.
  
    ```bash
-   $ source .demo.env
+   $ cp .demo.env .env
+   $ source .env
    ```
 
    If you are using Windows, execute the api.env.bat file on a command prompt session to make sure all variables are loaded into your environment. Make sure you have [cURL](https://curl.haxx.se/download.html) installed before you run any of the sample scripts on Windows.
